@@ -1,0 +1,395 @@
+==============================================================================
+2024-08-23 15:27:04.296237 - INFO - + START SUITE: SAA006
+==============================================================================
+2024-08-23 15:27:05.616049 - INFO - +- START SETUP: CustomSeleniumWireLibrary.Clear Folder [ ]
+2024-08-23 15:27:05.640527 - INFO - +- END SETUP: CustomSeleniumWireLibrary.Clear Folder (0.024478 s)
+------------------------------------------------------------------------------
+2024-08-23 15:27:05.642207 - INFO - +- START TEST: Setup For Test
+------------------------------------------------------------------------------
+2024-08-23 15:27:05.643440 - INFO - +-- START KEYWORD: CustomSeleniumWireLibrary.Create Driver [ full_page ]
+2024-08-23 15:27:05.651979 - INFO - Using default request storage
+2024-08-23 15:27:05.673850 - INFO - Created proxy listening on ::ffff:127.0.0.1:65025
+2024-08-23 15:27:12.791570 - INFO - ${driver} = <seleniumwire.webdriver.Edge (session="fa165c3216461f6924158a526bbe5356")>
+2024-08-23 15:27:12.791775 - INFO - +-- END KEYWORD: CustomSeleniumWireLibrary.Create Driver (7.148335 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-08-23 15:27:12.792534 - INFO - +-- START KEYWORD: BuiltIn.Log [ ${driver} | console=True ]
+2024-08-23 15:27:12.793125 - INFO - <seleniumwire.webdriver.Edge (session="fa165c3216461f6924158a526bbe5356")>
+2024-08-23 15:27:12.793237 - INFO - +-- END KEYWORD: BuiltIn.Log (0.000703 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-08-23 15:27:12.793442 - INFO - +-- START KEYWORD: CustomSeleniumWireLibrary.Go To [ http://192.168.118.36/login ]
+2024-08-23 15:27:14.937589 - INFO - +-- END KEYWORD: CustomSeleniumWireLibrary.Go To (2.144147 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-08-23 15:27:14.939802 - INFO - +-- START KEYWORD: CustomSeleniumWireLibrary.Log In To Systalk [ timothychen123 | 123123123Tt!!! ]
+2024-08-23 15:27:14.940351 - DEBUG - [wait_elements_until]visible
+2024-08-23 15:27:14.940729 - DEBUG - [wait_elements_until]css selector
+2024-08-23 15:27:14.941120 - DEBUG - [wait_elements_until][placeholder]
+2024-08-23 15:27:19.226629 - DEBUG - [wait_elements_until]elements get!
+2024-08-23 15:27:21.060365 - DEBUG - [wait_elements_until]visible
+2024-08-23 15:27:21.061619 - DEBUG - [wait_elements_until]css selector
+2024-08-23 15:27:21.061736 - DEBUG - [wait_elements_until][placeholder]
+2024-08-23 15:27:21.283255 - DEBUG - [wait_elements_until]elements get!
+2024-08-23 15:27:23.436840 - DEBUG - 3264
+2024-08-23 15:27:23.437072 - DEBUG - checkCode:3264
+2024-08-23 15:27:23.437114 - DEBUG - [wait_elements_until]visible
+2024-08-23 15:27:23.437149 - DEBUG - [wait_elements_until]css selector
+2024-08-23 15:27:23.437178 - DEBUG - [wait_elements_until][placeholder]
+2024-08-23 15:27:23.630215 - DEBUG - [wait_elements_until]elements get!
+2024-08-23 15:27:23.827961 - DEBUG - [wait_element_until]clickable
+2024-08-23 15:27:23.828069 - DEBUG - [wait_element_until]css selector
+2024-08-23 15:27:23.828104 - DEBUG - [wait_element_until][type=submit]
+2024-08-23 15:27:24.040712 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:27:24.871816 - DEBUG - submitted!
+2024-08-23 15:27:24.871966 - INFO - +-- END KEYWORD: CustomSeleniumWireLibrary.Log In To Systalk (9.932164 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-08-23 15:27:24.872287 - INFO - +-- START KEYWORD: CustomSeleniumWireLibrary.Go To Database [ ]
+2024-08-23 15:27:24.872585 - DEBUG - [wait_element_until]visible
+2024-08-23 15:27:24.872624 - DEBUG - [wait_element_until]css selector
+2024-08-23 15:27:24.872653 - DEBUG - [wait_element_until]#productHover
+2024-08-23 15:27:27.046216 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:27:27.659775 - DEBUG - [wait_element_until]clickable
+2024-08-23 15:27:27.660203 - DEBUG - [wait_element_until]css selector
+2024-08-23 15:27:27.660261 - DEBUG - [wait_element_until]#productButtons > button
+2024-08-23 15:27:27.879435 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:27:28.102630 - DEBUG - go_to_database-done
+2024-08-23 15:27:28.103271 - INFO - +-- END KEYWORD: CustomSeleniumWireLibrary.Go To Database (3.230984 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-08-23 15:27:28.104101 - INFO - +-- START KEYWORD: BuiltIn.Sleep [ 2s ]
+2024-08-23 15:27:30.107141 - INFO - Slept 2 seconds.
+2024-08-23 15:27:30.107356 - INFO - +-- END KEYWORD: BuiltIn.Sleep (2.003255 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-08-23 15:27:30.107667 - INFO - +-- START KEYWORD: CustomSeleniumWireLibrary.Switch Tab [ ]
+2024-08-23 15:27:59.471010 - DEBUG - [switch_tab]success
+2024-08-23 15:27:59.473224 - INFO - +-- END KEYWORD: CustomSeleniumWireLibrary.Switch Tab (29.365557 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-08-23 15:27:59.474390 - INFO - +-- START TEARDOWN: CustomSeleniumWireLibrary.Screenshot Element [ ${TEST NAME} ]
+2024-08-23 15:27:59.475918 - DEBUG - [wait_element_until]visible
+2024-08-23 15:27:59.476537 - DEBUG - [wait_element_until]css selector
+2024-08-23 15:27:59.476650 - DEBUG - [wait_element_until]body
+2024-08-23 15:28:00.180616 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:00.575152 - INFO - +-- END TEARDOWN: CustomSeleniumWireLibrary.Screenshot Element (1.100762 s)
+------------------------------------------------------------------------------
+2024-08-23 15:28:00.575485 - INFO - +- END TEST: Setup For Test (54.933278 s)
+------------------------------------------------------------------------------
+2024-08-23 15:28:00.576087 - INFO - +- START TEST: Pre-conditions
+------------------------------------------------------------------------------
+2024-08-23 15:28:00.577738 - INFO - +-- START KEYWORD: CustomSeleniumWireLibrary.Random [ 5 ]
+2024-08-23 15:28:00.578122 - INFO - ${datasetname} = td6z0
+2024-08-23 15:28:00.578178 - INFO - +-- END KEYWORD: CustomSeleniumWireLibrary.Random (0.00044 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-08-23 15:28:00.578379 - INFO - +-- START KEYWORD: CustomSeleniumWireLibrary.Click [ css:.stai-button ]
+2024-08-23 15:28:00.578537 - DEBUG - [wait_element_until]clickable
+2024-08-23 15:28:00.578570 - DEBUG - [wait_element_until]css selector
+2024-08-23 15:28:00.578597 - DEBUG - [wait_element_until].stai-button
+2024-08-23 15:28:00.883061 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:07.080559 - DEBUG - clicked
+2024-08-23 15:28:07.081502 - INFO - +-- END KEYWORD: CustomSeleniumWireLibrary.Click (6.503123 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-08-23 15:28:07.082699 - INFO - +-- START KEYWORD: PageDataSets.Type Dataset Name [ ${datasetname} ]
+2024-08-23 15:28:07.083326 - INFO - +--- START KEYWORD: CustomSeleniumWireLibrary.Input Text [ xpath:.//*[@formcontrolname='datasetName'] | ${name} ]
+2024-08-23 15:28:07.083700 - DEBUG - [wait_element_until]visible
+2024-08-23 15:28:07.083934 - DEBUG - [wait_element_until]xpath
+2024-08-23 15:28:07.083974 - DEBUG - [wait_element_until].//*[@formcontrolname='datasetName']
+2024-08-23 15:28:10.463932 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:13.163274 - DEBUG - [input_text]finish
+2024-08-23 15:28:13.163803 - INFO - +--- END KEYWORD: CustomSeleniumWireLibrary.Input Text (6.080477 s)
+2024-08-23 15:28:13.164020 - INFO - +-- END KEYWORD: PageDataSets.Type Dataset Name (6.081321 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-08-23 15:28:13.164506 - INFO - +-- START KEYWORD: PageDataSets.Choose Dataset Type [ SR資料集 ]
+2024-08-23 15:28:13.165539 - INFO - +--- START KEYWORD: CustomSeleniumWireLibrary.Click [ xpath:.//*[@placeholder="請選擇資料集類型"] ]
+2024-08-23 15:28:13.165889 - DEBUG - [wait_element_until]clickable
+2024-08-23 15:28:13.165958 - DEBUG - [wait_element_until]xpath
+2024-08-23 15:28:13.165993 - DEBUG - [wait_element_until].//*[@placeholder="請選擇資料集類型"]
+2024-08-23 15:28:13.453113 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:15.698339 - DEBUG - clicked
+2024-08-23 15:28:15.698489 - INFO - +--- END KEYWORD: CustomSeleniumWireLibrary.Click (2.53295 s)
+2024-08-23 15:28:15.698776 - INFO - +--- START KEYWORD: BuiltIn.Evaluate [ ${type_cn}.index("${type}") ]
+2024-08-23 15:28:15.699293 - INFO - ${index} = 3
+2024-08-23 15:28:15.699350 - INFO - +--- END KEYWORD: BuiltIn.Evaluate (0.000574 s)
+2024-08-23 15:28:15.699517 - INFO - +--- START KEYWORD: CustomSeleniumWireLibrary.Click [ xpath://*[@id="mat-option-${index}"]//* ]
+2024-08-23 15:28:15.699747 - DEBUG - [wait_element_until]clickable
+2024-08-23 15:28:15.699783 - DEBUG - [wait_element_until]xpath
+2024-08-23 15:28:15.699809 - DEBUG - [wait_element_until]//*[@id="mat-option-3"]//*
+2024-08-23 15:28:16.508094 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:17.358831 - DEBUG - clicked
+2024-08-23 15:28:17.358965 - INFO - +--- END KEYWORD: CustomSeleniumWireLibrary.Click (1.659448 s)
+2024-08-23 15:28:17.359272 - INFO - +-- END KEYWORD: PageDataSets.Choose Dataset Type (4.194766 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-08-23 15:28:17.359819 - INFO - +-- START KEYWORD: PageDataSets.Submit Dataset [ ]
+2024-08-23 15:28:17.360265 - INFO - +--- START KEYWORD: CustomSeleniumWireLibrary.Click [ xpath://*[@type='submit'] ]
+2024-08-23 15:28:17.360480 - DEBUG - [wait_element_until]clickable
+2024-08-23 15:28:17.360515 - DEBUG - [wait_element_until]xpath
+2024-08-23 15:28:17.360542 - DEBUG - [wait_element_until]//*[@type='submit']
+2024-08-23 15:28:17.450075 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:22.575254 - DEBUG - clicked
+2024-08-23 15:28:22.576720 - INFO - +--- END KEYWORD: CustomSeleniumWireLibrary.Click (5.216455 s)
+2024-08-23 15:28:22.577351 - INFO - +-- END KEYWORD: PageDataSets.Submit Dataset (5.217532 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-08-23 15:28:22.578411 - INFO - +-- START KEYWORD: general.Check To Be Displayed [ css:.stacked-toasts ]
+2024-08-23 15:28:22.579786 - INFO - +--- START KEYWORD: CustomSeleniumWireLibrary.Is Displayed [ ${selector} ]
+2024-08-23 15:28:22.580907 - DEBUG - [wait_element_until]precense
+2024-08-23 15:28:22.581356 - DEBUG - [wait_element_until]css selector
+2024-08-23 15:28:22.581567 - DEBUG - [wait_element_until].stacked-toasts
+2024-08-23 15:28:26.276165 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:26.481550 - INFO - ${is_displayed} = False
+2024-08-23 15:28:26.481668 - INFO - +--- END KEYWORD: CustomSeleniumWireLibrary.Is Displayed (3.901882 s)
+2024-08-23 15:28:26.481928 - INFO - +--- START KEYWORD: BuiltIn.Should Be Equal [ ${is_displayed} | ${False} ]
+2024-08-23 15:28:26.482240 - DEBUG - Argument types are:
+<class 'bool'>
+<class 'bool'>
+2024-08-23 15:28:26.482307 - INFO - +--- END KEYWORD: BuiltIn.Should Be Equal (0.000379 s)
+2024-08-23 15:28:26.482428 - INFO - +-- END KEYWORD: general.Check To Be Displayed (3.904017 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-08-23 15:28:26.482691 - INFO - +-- START KEYWORD: PageEachDataSet.Move To Database [ ${datasetname} ]
+2024-08-23 15:28:26.483077 - INFO - +--- START KEYWORD: CustomSeleniumWireLibrary.Move To [ xpath:.//*[contains(text(), '${datasetname}')] | precense ]
+2024-08-23 15:28:26.483338 - DEBUG - [wait_element_until]precense
+2024-08-23 15:28:26.483374 - DEBUG - [wait_element_until]xpath
+2024-08-23 15:28:26.483401 - DEBUG - [wait_element_until].//*[contains(text(), 'td6z0')]
+2024-08-23 15:28:26.515498 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:26.998670 - INFO - +--- END KEYWORD: CustomSeleniumWireLibrary.Move To (0.515593 s)
+2024-08-23 15:28:26.999033 - INFO - +-- END KEYWORD: PageEachDataSet.Move To Database (0.516342 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-08-23 15:28:26.999575 - INFO - +-- START KEYWORD: PageDataSets.Open Dataset [ ${datasetname} ]
+2024-08-23 15:28:27.000404 - INFO - +--- START KEYWORD: CustomSeleniumWireLibrary.Click [ xpath:.//*[contains(text(), '${datasetname}')] | precense ]
+2024-08-23 15:28:27.000838 - DEBUG - [wait_element_until]precense
+2024-08-23 15:28:27.000896 - DEBUG - [wait_element_until]xpath
+2024-08-23 15:28:27.000945 - DEBUG - [wait_element_until].//*[contains(text(), 'td6z0')]
+2024-08-23 15:28:27.216207 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:42.003107 - DEBUG - clicked
+2024-08-23 15:28:42.004041 - INFO - +--- END KEYWORD: CustomSeleniumWireLibrary.Click (15.003637 s)
+2024-08-23 15:28:42.004226 - INFO - +-- END KEYWORD: PageDataSets.Open Dataset (15.004651 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-08-23 15:28:42.004605 - INFO - +-- START TEARDOWN: CustomSeleniumWireLibrary.Screenshot Element [ ${TEST NAME} ]
+2024-08-23 15:28:42.004863 - DEBUG - [wait_element_until]visible
+2024-08-23 15:28:42.004903 - DEBUG - [wait_element_until]css selector
+2024-08-23 15:28:42.004931 - DEBUG - [wait_element_until]body
+2024-08-23 15:28:42.865473 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:43.124154 - INFO - +-- END TEARDOWN: CustomSeleniumWireLibrary.Screenshot Element (1.119549 s)
+------------------------------------------------------------------------------
+2024-08-23 15:28:43.124377 - INFO - +- END TEST: Pre-conditions (42.54829 s)
+------------------------------------------------------------------------------
+2024-08-23 15:28:43.124766 - INFO - +- START TEST: Step1
+------------------------------------------------------------------------------
+2024-08-23 15:28:43.126442 - INFO - +-- START KEYWORD: PageEachDataSet.Click Side Button index [ 3 ]
+2024-08-23 15:28:43.126811 - INFO - +--- START KEYWORD: CustomSeleniumWireLibrary.Click [ xpath:.//*[@id="mat-tab-content-0-0"]/div/puzzle-sr-details/puzzle-side-menu/div/div/div[${index}]/img ]
+2024-08-23 15:28:43.127036 - DEBUG - [wait_element_until]clickable
+2024-08-23 15:28:43.127071 - DEBUG - [wait_element_until]xpath
+2024-08-23 15:28:43.127099 - DEBUG - [wait_element_until].//*[@id="mat-tab-content-0-0"]/div/puzzle-sr-details/puzzle-side-menu/div/div/div[3]/img
+2024-08-23 15:28:43.202351 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:44.693977 - DEBUG - clicked
+2024-08-23 15:28:44.694150 - INFO - +--- END KEYWORD: CustomSeleniumWireLibrary.Click (1.567339 s)
+2024-08-23 15:28:44.694327 - INFO - +-- END KEYWORD: PageEachDataSet.Click Side Button index (1.567885 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-08-23 15:28:44.694759 - INFO - +-- START TEARDOWN: CustomSeleniumWireLibrary.Screenshot Element [ ${TEST NAME} ]
+2024-08-23 15:28:44.695046 - DEBUG - [wait_element_until]visible
+2024-08-23 15:28:44.695086 - DEBUG - [wait_element_until]css selector
+2024-08-23 15:28:44.695114 - DEBUG - [wait_element_until]body
+2024-08-23 15:28:44.865220 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:44.971743 - INFO - +-- END TEARDOWN: CustomSeleniumWireLibrary.Screenshot Element (0.276984 s)
+------------------------------------------------------------------------------
+2024-08-23 15:28:44.971950 - INFO - +- END TEST: Step1 (1.847184 s)
+------------------------------------------------------------------------------
+2024-08-23 15:28:44.972317 - INFO - +- START TEST: Step2
+------------------------------------------------------------------------------
+2024-08-23 15:28:44.973808 - INFO - +-- START KEYWORD: CustomSeleniumWireLibrary.Click [ css:.add-btn ]
+2024-08-23 15:28:44.973988 - DEBUG - [wait_element_until]clickable
+2024-08-23 15:28:44.974036 - DEBUG - [wait_element_until]css selector
+2024-08-23 15:28:44.974063 - DEBUG - [wait_element_until].add-btn
+2024-08-23 15:28:45.001239 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:45.904505 - DEBUG - clicked
+2024-08-23 15:28:45.904808 - INFO - +-- END KEYWORD: CustomSeleniumWireLibrary.Click (0.931 s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-08-23 15:28:45.905818 - INFO - +-- START TEARDOWN: CustomSeleniumWireLibrary.Screenshot Element [ ${TEST NAME} ]
+2024-08-23 15:28:45.906182 - DEBUG - [wait_element_until]visible
+2024-08-23 15:28:45.906245 - DEBUG - [wait_element_until]css selector
+2024-08-23 15:28:45.906275 - DEBUG - [wait_element_until]body
+2024-08-23 15:28:46.002379 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:46.161947 - INFO - +-- END TEARDOWN: CustomSeleniumWireLibrary.Screenshot Element (0.256129 s)
+------------------------------------------------------------------------------
+2024-08-23 15:28:46.162210 - INFO - +- END TEST: Step2 (1.189893 s)
+------------------------------------------------------------------------------
+2024-08-23 15:28:46.162641 - INFO - +- START TEST: Step3
+------------------------------------------------------------------------------
+2024-08-23 15:28:46.163576 - INFO - +-- START KEYWORD: PageEachDataSet.Input In The New Class Inputbox [ 0123401234012345 ]
+2024-08-23 15:28:46.163962 - INFO - +--- START KEYWORD: CustomSeleniumWireLibrary.Input Text [ xpath:.//*[@placeholder='請輸入欲新增標註類別名稱，字數上限 15 字元'] | ${data} ]
+2024-08-23 15:28:46.164182 - DEBUG - [wait_element_until]visible
+2024-08-23 15:28:46.164215 - DEBUG - [wait_element_until]xpath
+2024-08-23 15:28:46.164249 - DEBUG - [wait_element_until].//*[@placeholder='請輸入欲新增標註類別名稱，字數上限 15 字元']
+2024-08-23 15:28:46.181801 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:47.078942 - DEBUG - [input_text]finish
+2024-08-23 15:28:47.080447 - FAIL - TimeoutError: [Errno 60] Operation timed out
+2024-08-23 15:28:47.080700 - DEBUG - Traceback (most recent call last):
+  None
+TimeoutError: [Errno 60] Operation timed out
+2024-08-23 15:28:47.080745 - INFO - +--- END KEYWORD: PageEachDataSet.Input In The New Class Inputbox (0.917169 s)
+2024-08-23 15:28:47.081527 - INFO - +--- START TEARDOWN: CustomSeleniumWireLibrary.Screenshot Element [ ${TEST NAME} ]
+2024-08-23 15:28:47.081807 - DEBUG - [wait_element_until]visible
+2024-08-23 15:28:47.081851 - DEBUG - [wait_element_until]css selector
+2024-08-23 15:28:47.081880 - DEBUG - [wait_element_until]body
+2024-08-23 15:28:47.137400 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:47.267376 - INFO - +--- END TEARDOWN: CustomSeleniumWireLibrary.Screenshot Element (0.185849 s)
+------------------------------------------------------------------------------
+2024-08-23 15:28:47.267806 - INFO - +-- END TEST: Step3 (1.105165 s)
+------------------------------------------------------------------------------
+2024-08-23 15:28:47.268418 - INFO - +-- START TEST: Step4
+------------------------------------------------------------------------------
+2024-08-23 15:28:47.271666 - INFO - +--- START KEYWORD: general.Check To Be Not Displayed [ css:.form-erro ]
+2024-08-23 15:28:47.272092 - INFO - +---- START KEYWORD: CustomSeleniumWireLibrary.Is Displayed [ ${selector} ]
+2024-08-23 15:28:47.272299 - DEBUG - [wait_element_until]precense
+2024-08-23 15:28:47.272336 - DEBUG - [wait_element_until]css selector
+2024-08-23 15:28:47.272362 - DEBUG - [wait_element_until].form-erro
+2024-08-23 15:28:47.290197 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:47.676931 - INFO - ${is_displayed} = True
+2024-08-23 15:28:47.677039 - INFO - +---- END KEYWORD: CustomSeleniumWireLibrary.Is Displayed (0.404947 s)
+2024-08-23 15:28:47.677281 - INFO - +---- START KEYWORD: BuiltIn.Should Be Equal [ ${is_displayed} | ${True} ]
+2024-08-23 15:28:47.677583 - DEBUG - Argument types are:
+<class 'bool'>
+<class 'bool'>
+2024-08-23 15:28:47.677650 - INFO - +---- END KEYWORD: BuiltIn.Should Be Equal (0.000369 s)
+2024-08-23 15:28:47.677775 - INFO - +--- END KEYWORD: general.Check To Be Not Displayed (0.406109 s)
+2024-08-23 15:28:47.678098 - INFO - +--- START TEARDOWN: CustomSeleniumWireLibrary.Screenshot Element [ ${TEST NAME} ]
+2024-08-23 15:28:47.678319 - DEBUG - [wait_element_until]visible
+2024-08-23 15:28:47.678352 - DEBUG - [wait_element_until]css selector
+2024-08-23 15:28:47.678378 - DEBUG - [wait_element_until]body
+2024-08-23 15:28:47.871714 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:48.001965 - INFO - +--- END TEARDOWN: CustomSeleniumWireLibrary.Screenshot Element (0.323867 s)
+------------------------------------------------------------------------------
+2024-08-23 15:28:48.002208 - INFO - +-- END TEST: Step4 (0.73379 s)
+------------------------------------------------------------------------------
+2024-08-23 15:28:48.002596 - INFO - +-- START TEST: Step5
+------------------------------------------------------------------------------
+2024-08-23 15:28:48.003729 - INFO - +--- START KEYWORD: PageEachDataSet.Clear In The New Class Inputbox [ ]
+2024-08-23 15:28:48.004091 - INFO - +---- START KEYWORD: CustomSeleniumWireLibrary.Clear Input [ xpath:.//*[@placeholder='請輸入欲新增標註類別名稱，字數上限 15 字元'] ]
+2024-08-23 15:28:48.004284 - DEBUG - [wait_element_until]visible
+2024-08-23 15:28:48.004318 - DEBUG - [wait_element_until]xpath
+2024-08-23 15:28:48.004345 - DEBUG - [wait_element_until].//*[@placeholder='請輸入欲新增標註類別名稱，字數上限 15 字元']
+2024-08-23 15:28:48.369275 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:48.830810 - INFO - +---- END KEYWORD: CustomSeleniumWireLibrary.Clear Input (0.826719 s)
+2024-08-23 15:28:48.831215 - INFO - +--- END KEYWORD: PageEachDataSet.Clear In The New Class Inputbox (0.827486 s)
+2024-08-23 15:28:48.831527 - INFO - +--- START KEYWORD: PageEachDataSet.Input In The New Class Inputbox [ 0 ]
+2024-08-23 15:28:48.831941 - INFO - +---- START KEYWORD: CustomSeleniumWireLibrary.Input Text [ xpath:.//*[@placeholder='請輸入欲新增標註類別名稱，字數上限 15 字元'] | ${data} ]
+2024-08-23 15:28:48.832164 - DEBUG - [wait_element_until]visible
+2024-08-23 15:28:48.832202 - DEBUG - [wait_element_until]xpath
+2024-08-23 15:28:48.832233 - DEBUG - [wait_element_until].//*[@placeholder='請輸入欲新增標註類別名稱，字數上限 15 字元']
+2024-08-23 15:28:48.968031 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:49.144294 - DEBUG - [input_text]finish
+2024-08-23 15:28:49.144497 - INFO - +---- END KEYWORD: CustomSeleniumWireLibrary.Input Text (0.312556 s)
+2024-08-23 15:28:49.144835 - INFO - +--- END KEYWORD: PageEachDataSet.Input In The New Class Inputbox (0.313308 s)
+2024-08-23 15:28:49.145623 - INFO - +--- START TEARDOWN: CustomSeleniumWireLibrary.Screenshot Element [ ${TEST NAME} ]
+2024-08-23 15:28:49.146173 - DEBUG - [wait_element_until]visible
+2024-08-23 15:28:49.146226 - DEBUG - [wait_element_until]css selector
+2024-08-23 15:28:49.146257 - DEBUG - [wait_element_until]body
+2024-08-23 15:28:49.233879 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:49.348107 - INFO - +--- END TEARDOWN: CustomSeleniumWireLibrary.Screenshot Element (0.202484 s)
+------------------------------------------------------------------------------
+2024-08-23 15:28:49.348322 - INFO - +-- END TEST: Step5 (1.345726 s)
+------------------------------------------------------------------------------
+2024-08-23 15:28:49.348798 - INFO - +-- START TEST: Step6
+------------------------------------------------------------------------------
+2024-08-23 15:28:49.350232 - INFO - +--- START KEYWORD: general.Check To Be Empty [ css:.form-erro ]
+2024-08-23 15:28:49.350676 - INFO - +---- START KEYWORD: CustomSeleniumWireLibrary.Is Empty [ ${selector} ]
+2024-08-23 15:28:49.350934 - DEBUG - [wait_element_until]located
+2024-08-23 15:28:49.350984 - DEBUG - [wait_element_until]css selector
+2024-08-23 15:28:49.351015 - DEBUG - [wait_element_until].form-erro
+2024-08-23 15:28:49.498353 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:49.548470 - INFO - ${is_empty} = True
+2024-08-23 15:28:49.548568 - INFO - +---- END KEYWORD: CustomSeleniumWireLibrary.Is Empty (0.197892 s)
+2024-08-23 15:28:49.548813 - INFO - +---- START KEYWORD: BuiltIn.Should Be Equal [ ${is_empty} | ${True} ]
+2024-08-23 15:28:49.549112 - DEBUG - Argument types are:
+<class 'bool'>
+<class 'bool'>
+2024-08-23 15:28:49.549181 - INFO - +---- END KEYWORD: BuiltIn.Should Be Equal (0.000368 s)
+2024-08-23 15:28:49.549301 - INFO - +--- END KEYWORD: general.Check To Be Empty (0.199069 s)
+2024-08-23 15:28:49.552308 - INFO - +--- START KEYWORD: PageEachDataSet.Click New [ ]
+2024-08-23 15:28:49.552675 - INFO - +---- START KEYWORD: CustomSeleniumWireLibrary.Click [ xpath:.//*[@type='submit'] ]
+2024-08-23 15:28:49.552849 - DEBUG - [wait_element_until]clickable
+2024-08-23 15:28:49.552883 - DEBUG - [wait_element_until]xpath
+2024-08-23 15:28:49.552909 - DEBUG - [wait_element_until].//*[@type='submit']
+2024-08-23 15:28:49.753248 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:51.271478 - DEBUG - clicked
+2024-08-23 15:28:51.271629 - INFO - +---- END KEYWORD: CustomSeleniumWireLibrary.Click (1.718954 s)
+2024-08-23 15:28:51.271800 - INFO - +--- END KEYWORD: PageEachDataSet.Click New (1.719492 s)
+2024-08-23 15:28:51.272170 - INFO - +--- START TEARDOWN: CustomSeleniumWireLibrary.Screenshot Element [ ${TEST NAME} ]
+2024-08-23 15:28:51.272406 - DEBUG - [wait_element_until]visible
+2024-08-23 15:28:51.272444 - DEBUG - [wait_element_until]css selector
+2024-08-23 15:28:51.272471 - DEBUG - [wait_element_until]body
+2024-08-23 15:28:51.664678 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:51.807478 - INFO - +--- END TEARDOWN: CustomSeleniumWireLibrary.Screenshot Element (0.535308 s)
+------------------------------------------------------------------------------
+2024-08-23 15:28:51.807662 - INFO - +-- END TEST: Step6 (2.458864 s)
+------------------------------------------------------------------------------
+2024-08-23 15:28:51.808045 - INFO - +-- START TEST: Step7:
+------------------------------------------------------------------------------
+2024-08-23 15:28:51.809210 - INFO - +--- START KEYWORD: PageEachDataSet.Click New Class [ ]
+2024-08-23 15:28:51.809536 - INFO - +---- START KEYWORD: CustomSeleniumWireLibrary.Click [ css:.add-btn ]
+2024-08-23 15:28:51.809691 - DEBUG - [wait_element_until]clickable
+2024-08-23 15:28:51.809723 - DEBUG - [wait_element_until]css selector
+2024-08-23 15:28:51.809747 - DEBUG - [wait_element_until].add-btn
+2024-08-23 15:28:51.975802 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:53.057469 - DEBUG - clicked
+2024-08-23 15:28:53.057623 - INFO - +---- END KEYWORD: CustomSeleniumWireLibrary.Click (1.248087 s)
+2024-08-23 15:28:53.057796 - INFO - +--- END KEYWORD: PageEachDataSet.Click New Class (1.248586 s)
+2024-08-23 15:28:53.058120 - INFO - +--- START KEYWORD: general.Check To Be Not Displayed [ css:.form-erro ]
+2024-08-23 15:28:53.058549 - INFO - +---- START KEYWORD: CustomSeleniumWireLibrary.Is Displayed [ ${selector} ]
+2024-08-23 15:28:53.058745 - DEBUG - [wait_element_until]precense
+2024-08-23 15:28:53.058780 - DEBUG - [wait_element_until]css selector
+2024-08-23 15:28:53.058807 - DEBUG - [wait_element_until].form-erro
+2024-08-23 15:28:53.077801 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:53.090891 - INFO - ${is_displayed} = True
+2024-08-23 15:28:53.090985 - INFO - +---- END KEYWORD: CustomSeleniumWireLibrary.Is Displayed (0.032436 s)
+2024-08-23 15:28:53.091219 - INFO - +---- START KEYWORD: BuiltIn.Should Be Equal [ ${is_displayed} | ${True} ]
+2024-08-23 15:28:53.091501 - DEBUG - Argument types are:
+<class 'bool'>
+<class 'bool'>
+2024-08-23 15:28:53.091562 - INFO - +---- END KEYWORD: BuiltIn.Should Be Equal (0.000343 s)
+2024-08-23 15:28:53.091674 - INFO - +--- END KEYWORD: general.Check To Be Not Displayed (0.033554 s)
+2024-08-23 15:28:53.091957 - INFO - +--- START TEARDOWN: CustomSeleniumWireLibrary.Screenshot Element [ ${TEST NAME} ]
+2024-08-23 15:28:53.092137 - DEBUG - [wait_element_until]visible
+2024-08-23 15:28:53.092170 - DEBUG - [wait_element_until]css selector
+2024-08-23 15:28:53.092195 - DEBUG - [wait_element_until]body
+2024-08-23 15:28:53.104045 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:53.430091 - INFO - +--- END TEARDOWN: CustomSeleniumWireLibrary.Screenshot Element (0.338134 s)
+------------------------------------------------------------------------------
+2024-08-23 15:28:53.430308 - INFO - +-- END TEST: Step7: (1.622263 s)
+------------------------------------------------------------------------------
+2024-08-23 15:28:53.430789 - INFO - +-- START TEST: Step8:
+------------------------------------------------------------------------------
+2024-08-23 15:28:53.433853 - INFO - +--- START KEYWORD: BuiltIn.Sleep [ 3s ]
+2024-08-23 15:28:56.434497 - INFO - Slept 3 seconds.
+2024-08-23 15:28:56.435160 - INFO - +--- END KEYWORD: BuiltIn.Sleep (3.001307 s)
+2024-08-23 15:28:56.436268 - INFO - +--- START KEYWORD: PageEachDataSet.Input In The New Class Inputbox [ 0 ]
+2024-08-23 15:28:56.437512 - INFO - +---- START KEYWORD: CustomSeleniumWireLibrary.Input Text [ xpath:.//*[@placeholder='請輸入欲新增標註類別名稱，字數上限 15 字元'] | ${data} ]
+2024-08-23 15:28:56.438048 - DEBUG - [wait_element_until]visible
+2024-08-23 15:28:56.438124 - DEBUG - [wait_element_until]xpath
+2024-08-23 15:28:56.438185 - DEBUG - [wait_element_until].//*[@placeholder='請輸入欲新增標註類別名稱，字數上限 15 字元']
+2024-08-23 15:28:56.537093 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:56.683444 - DEBUG - [input_text]finish
+2024-08-23 15:28:56.683693 - INFO - +---- END KEYWORD: CustomSeleniumWireLibrary.Input Text (0.246181 s)
+2024-08-23 15:28:56.683937 - INFO - +--- END KEYWORD: PageEachDataSet.Input In The New Class Inputbox (0.247669 s)
+2024-08-23 15:28:56.684386 - INFO - +--- START KEYWORD: general.Check To Be Displayed [ css:.stacked-toasts ]
+2024-08-23 15:28:56.685032 - INFO - +---- START KEYWORD: CustomSeleniumWireLibrary.Is Displayed [ ${selector} ]
+2024-08-23 15:28:56.685321 - DEBUG - [wait_element_until]precense
+2024-08-23 15:28:56.685395 - DEBUG - [wait_element_until]css selector
+2024-08-23 15:28:56.685448 - DEBUG - [wait_element_until].stacked-toasts
+2024-08-23 15:28:56.821827 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:56.829299 - INFO - ${is_displayed} = False
+2024-08-23 15:28:56.829417 - INFO - +---- END KEYWORD: CustomSeleniumWireLibrary.Is Displayed (0.144385 s)
+2024-08-23 15:28:56.829731 - INFO - +---- START KEYWORD: BuiltIn.Should Be Equal [ ${is_displayed} | ${False} ]
+2024-08-23 15:28:56.830033 - DEBUG - Argument types are:
+<class 'bool'>
+<class 'bool'>
+2024-08-23 15:28:56.830097 - INFO - +---- END KEYWORD: BuiltIn.Should Be Equal (0.000366 s)
+2024-08-23 15:28:56.830214 - INFO - +--- END KEYWORD: general.Check To Be Displayed (0.145828 s)
+2024-08-23 15:28:56.830505 - INFO - +--- START TEARDOWN: CustomSeleniumWireLibrary.Screenshot Element [ ${TEST NAME} ]
+2024-08-23 15:28:56.830687 - DEBUG - [wait_element_until]visible
+2024-08-23 15:28:56.830720 - DEBUG - [wait_element_until]css selector
+2024-08-23 15:28:56.830746 - DEBUG - [wait_element_until]body
+2024-08-23 15:28:56.843683 - DEBUG - [wait_element_until]element get!
+2024-08-23 15:28:56.969054 - INFO - +--- END TEARDOWN: CustomSeleniumWireLibrary.Screenshot Element (0.138549 s)
+------------------------------------------------------------------------------
+2024-08-23 15:28:56.969420 - INFO - +-- END TEST: Step8: (3.538631 s)
+------------------------------------------------------------------------------
+2024-08-23 15:28:56.970697 - INFO - +-- START TEARDOWN: CustomSeleniumWireLibrary.Close Browser [ ]
+2024-08-23 15:28:57.299858 - INFO - +-- END TEARDOWN: CustomSeleniumWireLibrary.Close Browser (0.329161 s)
+==============================================================================
+2024-08-23 15:28:57.300197 - INFO - +- END SUITE: SAA006 (113.00396 s)
+==============================================================================
